@@ -12,6 +12,31 @@ dist
 dist-ssr
 *.local
 
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Build output
+build
+coverage
+
+# Misc
+*.tgz
+*.bak
+*.tmp
+*.cache
+.cache/
+npm-cache/
+yarn-cache/
+.pnpm-debug.log
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +47,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# IDEs
+*.iml
+*.ipr
+*.iws
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# VSCode settings history
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/*.code-workspace
