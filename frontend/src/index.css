@@ -15,3 +15,17 @@ body {
   font-family: system-ui, sans-serif;
   background: #f7f7f7;
 }
+
+@media (max-width: 768px) {
+  /* Mobile styles */
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Desktop styles */
+  .container {
+    width: 960px;
+  }
+}
