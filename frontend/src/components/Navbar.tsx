@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
           <span>Discover</span>
         </a>
         
-        <a 
+        {/* <a 
           href="/search" 
           className={`tab-item ${activeTab === 'search' ? 'active' : ''}`}
         >
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             <path d="m21 21-4.35-4.35"/>
           </svg>
           <span>Search</span>
-        </a>
+        </a> */}
         
         <a 
           href="/my-events" 
